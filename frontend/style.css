@@ -38,6 +38,14 @@ body {
   --bs-link-hover-color: var(--bs-primary);
   --bs-link-hover-color-rgb: 17, 17, 17;
 }
+
+/* latest products */
+#latest-products h5 {
+  letter-spacing: 0.3rem;
+}
+#latest-products span {
+  color: var(--bs-black);
+}
 /* footer */
 h5 {
   font-weight: 700;
@@ -45,5 +53,4 @@ h5 {
 }
 a {
   color: var(--bs-black);
-  text-decoration: none;
 }
