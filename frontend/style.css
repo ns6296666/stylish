@@ -38,7 +38,10 @@ body {
   --bs-link-hover-color: var(--bs-primary);
   --bs-link-hover-color-rgb: 17, 17, 17;
 }
-
+/* outlets */
+.collection-item {
+  height: 30rem;
+}
 /* latest products */
 #latest-products h5 {
   letter-spacing: 0.3rem;
