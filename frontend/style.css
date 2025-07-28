@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   --heading-font: "Inter", Roboto, sans-serif;
   --heading-font-weight: 400;
@@ -37,6 +42,10 @@ body {
   --bs-link-decoration: underline;
   --bs-link-hover-color: var(--bs-primary);
   --bs-link-hover-color-rgb: 17, 17, 17;
+}
+/* header */
+header {
+  width: 100%;
 }
 
 /* swiper slider */
