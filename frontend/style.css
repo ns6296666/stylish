@@ -19,7 +19,7 @@ body {
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.7;
-  --bs-body-color: #8f8f8f;
+  /* --bs-body-color: #8f8f8f; */
   --bs-body-color-rgb: 143, 143, 143;
 
   --bs-primary: #ce071e;
@@ -44,10 +44,19 @@ body {
   --bs-link-hover-color-rgb: 17, 17, 17;
 }
 /* header */
+.login-section {
+  list-style: none;
+  margin-bottom: 0;
+}
+.login-item {
+  text-decoration: none;
+}
 header {
   width: 100%;
 }
-
+header p {
+  margin-bottom: 0;
+}
 /* swiper slider */
 .horizontal {
   width: 690px;
@@ -77,8 +86,8 @@ header {
   right: 0;
   bottom: -42px;
   font-family: "Playfair Display", sans-serif;
-  font-size: 8.8em;
-  color: #e1e1e1;
+  /* font-size: 8.8em; */
+  /* color: #e1e1e1; */
   z-index: 1;
 }
 #coupons h2 {
