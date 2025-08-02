@@ -191,6 +191,7 @@ a {
   --light-color: #fff;
   --swiper-theme-color: #111 !important;
 }
+
 /* header */
 .login-section {
   list-style: none;
@@ -319,10 +320,19 @@ h5 {
 a {
   color: var(--bs-black);
 }
-
-footer p {
-  /* font-family: "Inter", sans-serif; */
-  color: #7a7a7a;
+.footer-list {
+  line-height: 2;
   letter-spacing: 0.5px;
+}
+footer li {
+  padding-bottom: 2px;
+}
+footer p {
+  color: #7a7a7a;
+  letter-spacing: 0.6px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 14px !important;
+  margin-bottom: 40px !important;
   /* font-weight: 300; */
 }
