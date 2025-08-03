@@ -19,7 +19,7 @@ body {
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.7;
-  --bs-body-color: #8f8f8f;
+  /* --bs-body-color: #8f8f8f; */
   --bs-body-color-rgb: 143, 143, 143;
 
   --bs-primary: #ce071e;
@@ -272,6 +272,7 @@ header p {
 /* latest products */
 #latest-products h5 {
   letter-spacing: 0.3rem;
+  font-size: 22px;
 }
 #latest-products span {
   color: var(--bs-black);
