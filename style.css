@@ -203,7 +203,7 @@ header {
 }
 header p {
   margin: 0 auto;
-  margin-left: 67px;
+  /* margin-left: 67px; */
 }
 .header-icons {
   right: 0;
@@ -341,4 +341,15 @@ footer p {
   padding-left: 14px !important;
   margin-bottom: 40px !important;
   /* font-weight: 300; */
+}
+@media only screen and (max-width: 600px) {
+  .login-section li {
+    /* font-family: " Inter ", sans-serif; */
+    font-size: 1.2rem;
+    /* font-weight: 300; */
+    color: black;
+  }
+  header .heading-offer {
+    display: none;
+  }
 }
