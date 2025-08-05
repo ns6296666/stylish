@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sono:wght@200..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Playfair+Display:ital,wght@0,900;1,900&amp;family=Source+Sans+Pro:wght@400;600;700;900&amp;display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -200,22 +200,32 @@
 
     <section id="coupons">
       <div class="container">
-        <div
-          class="p-5 d-flex flex-row justify-content-between align-item-center discounted-coupons position-relative"
-        >
+        <div class="p-5 discounted-coupons position-relative">
           <div class="discounted-percentage bold-text position-absolute">
             10% OFF
           </div>
-          <div class="">
-            <h2>10% OFF Discount Coupons</h2>
-            <p>Subscribe us to get 10% OFF on all the purchases</p>
-          </div>
-          <div
-            class="align-self-center me-2 z-3 position-relative overflow-hidden"
-          >
-            <button type="button" class="btn btn-dark rounded-0 email-btn">
-              EMAIL ME
-            </button>
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-7 col-md-12 mb-3">
+              <div class="coupon-header">
+                <h2 class="display-7">10% OFF Discount Coupons</h2>
+                <p class="m-0">
+                  Subscribe us to get 10% OFF on all the purchases
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12">
+              <div class="btn-wrap">
+                <a
+                  href="#"
+                  class="btn btn-black btn-medium text-uppercase hvr-sweep-to-right"
+                  >Email me</a
+                >
+              </div>
+              <!-- <button type="button" class="btn btn-dark rounded-0 email-btn">
+                EMAIL ME
+              </button> -->
+            </div>
           </div>
         </div>
       </div>
