@@ -349,7 +349,18 @@ footer p {
     /* font-weight: 300; */
     color: black;
   }
+  .side-bar-large {
+    display: none;
+  }
+  .side-bar {
+    display: block;
+  }
   header .heading-offer {
     display: none;
+  }
+
+  /* footer */
+  footer a {
+    font-size: 1.2rem;
   }
 }
