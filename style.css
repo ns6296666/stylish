@@ -277,7 +277,7 @@ header p {
 #latest-products h5 {
   text-transform: uppercase;
   letter-spacing: 0.3rem;
-  font-size: 22px;
+  font-size: 1.2rem;
 }
 #latest-products span {
   color: var(--bs-black);
