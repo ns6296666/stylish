@@ -270,9 +270,9 @@ header p {
   z-index: 0;
 }
 /* outlets */
-.collection-item {
+/* .collection-item {
   height: 30rem;
-}
+} */
 /* latest products */
 #latest-products h5 {
   text-transform: uppercase;
@@ -358,7 +358,11 @@ footer p {
   header .heading-offer {
     display: none;
   }
-  /* latest collection */
+  /* outlets */
+
+  #outlets .outlets-box {
+    flex-direction: column;
+  }
 
   /* footer */
   footer a {
