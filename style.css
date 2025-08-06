@@ -28,13 +28,10 @@ header p {
   z-index: 1; */
 }
 /* swiper slider */
-.horizontal {
-  /* width: 690px; */
-  border-radius: 10px;
-}
-.horizontal img {
-  border-radius: 10px;
-}
+/* #swiper {
+  height: 550px;
+} */
+
 .vertical {
   /* width: 690px; */
   border-radius: 10px;
@@ -210,23 +207,14 @@ footer p {
   }
 
   /* slider */
-  /* #swiper {
-    height: 550px;
-  } */
 
-  .horizontal {
-    width: 50%;
-    border-radius: 10px;
-  }
   .second-horizontal-slide {
     width: 100%;
   }
   .second-horizontal-slide img {
     border-radius: 10px;
   }
-  .horizontal img {
-    border-radius: 10px;
-  }
+
   .vertical {
     width: 50%;
     border-radius: 10px;
@@ -276,22 +264,33 @@ footer p {
   }
 
   /* slider */
-  #swiper {
+  /* #swiper {
     height: 550px;
-  }
+  } */
 
-  .horizontal {
-    width: 50%;
-    border-radius: 10px;
-  }
-  .horizontal img {
-    border-radius: 10px;
-  }
   .vertical {
     width: 50%;
     border-radius: 10px;
   }
   .vertical img {
+    border-radius: 10px;
+  }
+
+  .second-horizontal-slide {
+    width: 100%;
+  }
+  .second-horizontal-slide img {
+    border-radius: 10px;
+  }
+
+  .vertical {
+    width: 50%;
+    border-radius: 10px;
+  }
+  .vertical img {
+    border-radius: 10px;
+  }
+  .second-vertical-slide img {
     border-radius: 10px;
   }
 
@@ -317,13 +316,7 @@ footer p {
 }
 @media only screen and (min-width: 768px) {
   /* slider */
-  .horizontal {
-    width: 50%;
-    border-radius: 10px;
-  }
-  .horizontal img {
-    border-radius: 10px;
-  }
+
   .vertical {
     width: 50%;
     border-radius: 10px;
