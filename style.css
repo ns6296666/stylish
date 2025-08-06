@@ -29,14 +29,14 @@ header p {
 }
 /* swiper slider */
 .horizontal {
-  width: 690px;
+  /* width: 690px; */
   border-radius: 10px;
 }
 .horizontal img {
   border-radius: 10px;
 }
 .vertical {
-  width: 690px;
+  /* width: 690px; */
   border-radius: 10px;
 }
 .vertical img {
@@ -218,6 +218,12 @@ footer p {
     width: 50%;
     border-radius: 10px;
   }
+  .second-horizontal-slide {
+    width: 100%;
+  }
+  .second-horizontal-slide img {
+    border-radius: 10px;
+  }
   .horizontal img {
     border-radius: 10px;
   }
@@ -226,6 +232,9 @@ footer p {
     border-radius: 10px;
   }
   .vertical img {
+    border-radius: 10px;
+  }
+  .second-vertical-slide img {
     border-radius: 10px;
   }
 
