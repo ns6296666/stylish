@@ -236,6 +236,9 @@ footer p {
 
 @media screen and (max-width: 576px) {
   /* header */
+  /* .logo.image-index {
+    display: none;
+  } */
   #open-sidebar-button {
     display: block !important;
     margin-left: auto;
@@ -255,9 +258,7 @@ footer p {
   .mobile-icons-large.hide {
     display: none;
   }
-  /* .mobile-icons.hide {
-    display: none;
-  } */
+
   .navbar-cls {
     position: fixed;
     top: 0;
@@ -276,13 +277,13 @@ footer p {
     width: 100%;
     flex-direction: column;
   }
-  .logo.image-index {
+  /* .logo.image-index {
     position: fixed;
     top: 0;
     z-index: 100;
     padding-top: 1em;
     padding-left: 1.5em;
-  }
+  } */
   .navbar-cls.show {
     right: 0;
   }
@@ -295,10 +296,13 @@ footer p {
     width: 100%;
     padding-left: 2.5em;
   }
-  /* .mobile-icons {
+  .mobile-logo {
     position: absolute;
-    z-index: -0;
-  } */
+    top: -4em;
+  }
+  ul.header-icons > li:nth-child(3) {
+    margin-top: 3em;
+  }
 
   /* .nav-pills li:last-child {
     display: flex;
@@ -364,18 +368,26 @@ footer p {
 }
 @media only screen and (min-width: 576px) {
   /* header */
-  .large-screen-header {
-    /* display: none !important; */
+  #open-sidebar-button {
+    display: block !important;
+    margin-left: auto;
+  }
+  #close-sidebar-button {
+    display: block !important;
+    position: absolute;
+
+    top: -2.5em;
+    right: 3em;
+    z-index: 0;
   }
   .login-section li {
-    /* font-family: " Inter ", sans-serif; */
     font-size: 1.2rem;
-    /* font-weight: 300; */
     color: black;
   }
-  /* .side-bar-large {
+
+  .mobile-icons-large.hide {
     display: none;
-  } */
+  }
   .side-bar {
     display: block;
   }
@@ -384,9 +396,6 @@ footer p {
   }
 
   /* slider */
-  /* #swiper {
-    height: 550px;
-  } */
 
   .vertical {
     width: 50%;
