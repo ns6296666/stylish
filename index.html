@@ -51,23 +51,26 @@
       <div
         class="side-bar-large d-flex align-items-center justify-content-between px-3 py-2 large-screen-header"
       >
-        <img src="./images/main-logo.png" alt="" class="large-logo" />
-        <div class="w-100 d-flex justify-content-between">
-          <!-- <button
-            id="close-sidebar-button"
-            onclick="closeSidebar()"
-            class="border-0 bg-body cross-index"
-          >
-            <i class="fa-solid fa-xmark"></i>
-          </button> -->
-          <!-- <div> -->
-          <div class="align-self-center justify-content-center mobile-icons">
-            <i class="fa-regular fa-user" style="--fa-primary-color: black"></i>
+        <div>
+          <img src="./images/main-logo.png" alt="" class="large-logo" />
+        </div>
 
-            <i class="fa-solid fa-cart-shopping ms-3"></i
-            ><i class="fa-solid fa-magnifying-glass ms-3"></i>
-          </div>
-          <!-- </div> -->
+        <!-- <div class="w-100 d-flex justify-content-between"> -->
+
+        <div class="align-self-center justify-content-center mobile-icons">
+          <ul class="nav nav-pills">
+            <li>
+              <i
+                class="fa-regular fa-user"
+                style="--fa-primary-color: black"
+              ></i>
+            </li>
+            <li><i class="fa-solid fa-cart-shopping ms-3"></i></li>
+            <li><i class="fa-solid fa-magnifying-glass ms-3"></i></li>
+          </ul>
+        </div>
+        <!-- </div> -->
+        <div>
           <button
             id="open-sidebar-button"
             onclick="openSidebar()"
@@ -79,7 +82,9 @@
             ></i>
           </button>
         </div>
-        <div class="d-flex">
+
+        <!-- </div> -->
+        <div class="d-flex large-screen-nav">
           <div class="d-flex align-item-center gap-5 navbar-cls" id="navbar">
             <ul class="nav nav-pills gap-4 bold-text header-icons">
               <button
