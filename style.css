@@ -259,6 +259,9 @@ footer p {
     display: block;
     /* padding-left: 2em; */
   }
+  .mobile-logo.image-index {
+    display: block;
+  }
   .mobile-icons-large.hide {
     display: none;
   }
@@ -266,7 +269,9 @@ footer p {
     display: none !important;
   }
   .navbar-cls {
+    display: block !important;
     position: fixed;
+
     top: 0;
     right: -100%;
     height: 100vh;
